@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chronos | World of Watches</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+    .serif {
+      font-family: 'Playfair Display', serif;
+    }
+  </style>
+</head>
+
+<body class="bg-[#0B0B0D] text-[#F4EFE6]">
+
+  <!-- Navbar -->
+  <header class="border-b border-[#C9A86A]/20 sticky top-0 z-50 bg-[#0B0B0D]/95 backdrop-blur">
+    <nav class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
+      <h1 class="serif text-3xl font-bold text-[#D6B56D] tracking-wide">CHRONOS</h1>
+
+      <div class="hidden md:flex gap-8 text-sm text-gray-300">
+        <a href="#collection" class="hover:text-[#D6B56D]">Collection</a>
+        <a href="#craft" class="hover:text-[#D6B56D]">Craftsmanship</a>
+        <a href="#styles" class="hover:text-[#D6B56D]">Styles</a>
+        <a href="#history" class="hover:text-[#D6B56D]">History</a>
+      </div>
+
+      <button class="border border-[#D6B56D] text-[#D6B56D] px-5 py-2 rounded-full text-sm hover:bg-[#D6B56D] hover:text-black transition">
+        Discover
+      </button>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="min-h-[90vh] flex items-center bg-[#111113]">
+    <div class="max-w-7xl mx-auto px-6 py-20 grid lg:grid-cols-2 gap-14 items-center">
+
+      <div>
+        <p class="uppercase tracking-[0.35em] text-[#D6B56D] text-sm mb-6">
+          The Art of Time
+        </p>
+
+        <h2 class="serif text-6xl md:text-8xl leading-tight font-semibold">
+          Time,
+          <span class="text-[#D6B56D]">Crafted</span>
+          Beautifully.
+        </h2>
+
+        <p class="text-gray-400 mt-7 max-w-xl leading-8">
+          Discover the fascinating world of watches, where precision engineering,
+          timeless design and extraordinary craftsmanship come together to create
+          more than just an instrument for measuring time.
+        </p>
+
+        <div class="mt-9 flex gap-4">
+          <a href="#collection" class="bg-[#D6B56D] text-black px-7 py-3 rounded-full font-medium hover:bg-[#E5CA91] transition">
+            Explore Watches
+          </a>
+          <a href="#history" class="border border-gray-600 px-7 py-3 rounded-full hover:border-[#D6B56D] hover:text-[#D6B56D] transition">
+            Discover History
+          </a>
+        </div>
+
+        <div class="flex gap-10 mt-12">
+          <div>
+            <p class="text-3xl serif text-[#D6B56D]">400+</p>
+            <p class="text-xs text-gray-500 mt-1">Years of Watchmaking</p>
+          </div>
+          <div>
+            <p class="text-3xl serif text-[#D6B56D]">10+</p>
+            <p class="text-xs text-gray-500 mt-1">Watch Styles</p>
+          </div>
+          <div>
+            <p class="text-3xl serif text-[#D6B56D]">∞</p>
+            <p class="text-xs text-gray-500 mt-1">Stories in Time</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="relative">
+        <div class="absolute -inset-5 bg-[#D6B56D]/10 blur-3xl rounded-full"></div>
+        <img
+          src="https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=1000&q=90"
+          class="relative w-full h-[600px] object-cover rounded-2xl"
+          alt="Luxury watch">
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Introduction -->
+  <section class="py-24 bg-[#F2EDE3] text-[#171513]">
+    <div class="max-w-5xl mx-auto px-6 text-center">
+      <p class="uppercase tracking-[0.3em] text-[#9A7431] text-sm mb-5">
+        More Than A Timepiece
+      </p>
+
+      <h2 class="serif text-4xl md:text-6xl">
+        Where Engineering Meets Art
+      </h2>
+
+      <p class="mt-7 text-gray-600 leading-8 max-w-3xl mx-auto">
+        A remarkable watch is a combination of hundreds of tiny components,
+        meticulous craftsmanship and thoughtful design. From the movement hidden
+        beneath the dial to the finishing on the case, every detail contributes
+        to the character of a timepiece.
+      </p>
+
+      <div class="grid md:grid-cols-3 gap-8 mt-14 text-left">
+        <div class="border-l-2 border-[#C9A86A] pl-6">
+          <h3 class="serif text-2xl">Precision</h3>
+          <p class="text-gray-600 text-sm mt-3 leading-7">
+            Carefully engineered mechanisms designed to measure every passing second.
+          </p>
+        </div>
+
+        <div class="border-l-2 border-[#C9A86A] pl-6">
+          <h3 class="serif text-2xl">Craft</h3>
+          <p class="text-gray-600 text-sm mt-3 leading-7">
+            Hours of hand finishing, polishing and assembly bring each piece to life.
+          </p>
+        </div>
+
+        <div class="border-l-2 border-[#C9A86A] pl-6">
+          <h3 class="serif text-2xl">Character</h3>
+          <p class="text-gray-600 text-sm mt-3 leading-7">
+            A watch becomes personal through its design, history and the stories it carries.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Collection -->
+  <section id="collection" class="py-24 bg-[#0E0E10]">
+    <div class="max-w-7xl mx-auto px-6">
+
+      <div class="flex flex-col md:flex-row justify-between md:items-end gap-5 mb-14">
+        <div>
+          <p class="text-[#D6B56D] uppercase tracking-[0.3em] text-sm">The Collection</p>
+          <h2 class="serif text-5xl mt-3">Timeless Icons</h2>
+        </div>
+        <p class="text-gray-500 max-w-md text-sm leading-7">
+          Explore different expressions of watchmaking, from elegant dress watches
+          to bold chronographs and sophisticated mechanical timepieces.
+        </p>
+      </div>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+        <!-- Watch 1 -->
+        <div class="group bg-[#171719] rounded-2xl overflow-hidden border border-white/5 hover:border-[#D6B56D]/50 transition">
+          <div class="overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=700&q=85"
+              class="w-full h-80 object-cover group-hover:scale-105 transition duration-700"
+              alt="Classic watch">
+          </div>
+          <div class="p-6">
+            <p class="text-[#D6B56D] text-xs uppercase tracking-widest">Classic</p>
+            <h3 class="serif text-2xl mt-2">The Heritage</h3>
+            <p class="text-gray-500 text-sm mt-3">Automatic Movement</p>
+            <p class="mt-5 text-lg">€2,850</p>
+          </div>
+        </div>
+
+        <!-- Watch 2 -->
+        <div class="group bg-[#171719] rounded-2xl overflow-hidden border border-white/5 hover:border-[#D6B56D]/50 transition">
+          <div class="overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?auto=format&fit=crop&w=700&q=85"
+              class="w-full h-80 object-cover group-hover:scale-105 transition duration-700"
+              alt="Luxury gold watch">
+          </div>
+          <div class="p-6">
+            <p class="text-[#D6B56D] text-xs uppercase tracking-widest">Luxury</p>
+            <h3 class="serif text-2xl mt-2">Golden Era</h3>
+            <p class="text-gray-500 text-sm mt-3">Swiss Mechanical</p>
+            <p class="mt-5 text-lg">€6,400</p>
+          </div>
+        </div>
+
+        <!-- Watch 3 -->
+        <div class="group bg-[#171719] rounded-2xl overflow-hidden border border-white/5 hover:border-[#D6B56D]/50 transition">
+          <div class="overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1533139502658-0198f920d8e8?auto=format&fit=crop&w=700&q=85"
+              class="w-full h-80 object-cover group-hover:scale-105 transition duration-700"
+              alt="Chronograph watch">
+          </div>
+          <div class="p-6">
+            <p class="text-[#D6B56D] text-xs uppercase tracking-widest">Chronograph</p>
+            <h3 class="serif text-2xl mt-2">Velocity</h3>
+            <p class="text-gray-500 text-sm mt-3">Precision Chronograph</p>
+            <p class="mt-5 text-lg">€4,750</p>
+          </div>
+        </div>
+
+        <!-- Watch 4 -->
+        <div class="group bg-[#171719] rounded-2xl overflow-hidden border border-white/5 hover:border-[#D6B56D]/50 transition">
+          <div class="overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1508057198894-247b23fe5ade?auto=format&fit=crop&w=700&q=85"
+              class="w-full h-80 object-cover group-hover:scale-105 transition duration-700"
+              alt="Minimal watch">
+          </div>
+          <div class="p-6">
+            <p class="text-[#D6B56D] text-xs uppercase tracking-widest">Minimal</p>
+            <h3 class="serif text-2xl mt-2">The Essential</h3>
+            <p class="text-gray-500 text-sm mt-3">Quartz Movement</p>
+            <p class="mt-5 text-lg">€980</p>
+          </div>
+        </div>
+
+        <!-- Watch 5 -->
+        <div class="group bg-[#171719] rounded-2xl overflow-hidden border border-white/5 hover:border-[#D6B56D]/50 transition">
+          <div class="overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1612817159949-195b6eb9e31a?auto=format&fit=crop&w=700&q=85"
+              class="w-full h-80 object-cover group-hover:scale-105 transition duration-700"
+              alt="Luxury black watch">
+          </div>
+          <div class="p-6">
+            <p class="text-[#D6B56D] text-xs uppercase tracking-widest">Modern</p>
+            <h3 class="serif text-2xl mt-2">Noir One</h3>
+            <p class="text-gray-500 text-sm mt-3">Automatic Movement</p>
+            <p class="mt-5 text-lg">€3,900</p>
+          </div>
+        </div>
+
+        <!-- Watch 6 -->
+        <div class="group bg-[#171719] rounded-2xl overflow-hidden border border-white/5 hover:border-[#D6B56D]/50 transition">
+          <div class="overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1547996160-81dfa63595aa?auto=format&fit=crop&w=700&q=85"
+              class="w-full h-80 object-cover group-hover:scale-105 transition duration-700"
+              alt="Silver watch">
+          </div>
+          <div class="p-6">
+            <p class="text-[#D6B56D] text-xs uppercase tracking-widest">Sport</p>
+            <h3 class="serif text-2xl mt-2">Aero Steel</h3>
+            <p class="text-gray-500 text-sm mt-3">Stainless Steel</p>
+            <p class="mt-5 text-lg">€2,250</p>
+          </div>
+        </div>
+
+        <!-- Watch 7 -->
+        <div class="group bg-[#171719] rounded-2xl overflow-hidden border border-white/5 hover:border-[#D6B56D]/50 transition">
+          <div class="overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1594534475808-b18fc33b045e?auto=format&fit=crop&w=700&q=85"
+              class="w-full h-80 object-cover group-hover:scale-105 transition duration-700"
+              alt="Vintage watch">
+          </div>
+          <div class="p-6">
+            <p class="text-[#D6B56D] text-xs uppercase tracking-widest">Vintage</p>
+            <h3 class="serif text-2xl mt-2">Old Soul</h3>
+            <p class="text-gray-500 text-sm mt-3">Hand-Wound Movement</p>
+            <p class="mt-5 text-lg">€3,150</p>
+          </div>
+        </div>
+
+        <!-- Watch 8 -->
+        <div class="group bg-[#171719] rounded-2xl overflow-hidden border border-white/5 hover:border-[#D6B56D]/50 transition">
+          <div class="overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?auto=format&fit=crop&w=700&q=85"
+              class="w-full h-80 object-cover group-hover:scale-105 transition duration-700"
+              alt="Luxury wristwatch">
+          </div>
+          <div class="p-6">
+            <p class="text-[#D6B56D] text-xs uppercase tracking-widest">Signature</p>
+            <h3 class="serif text-2xl mt-2">Celestial</h3>
+            <p class="text-gray-500 text-sm mt-3">Swiss Automatic</p>
+            <p class="mt-5 text-lg">€8,200</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Watchmaking -->
+  <section id="craft" class="py-24 bg-[#181516]">
+    <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
+
+      <img src="https://images.unsplash.com/photo-1614164185128-e4ec99c436d7?auto=format&fit=crop&w=1000&q=85"
+        class="rounded-2xl w-full h-[600px] object-cover"
+        alt="Watch mechanism">
+
+      <div>
+        <p class="text-[#D6B56D] uppercase tracking-[0.3em] text-sm">
+          Inside The Timepiece
+        </p>
+
+        <h2 class="serif text-5xl mt-4">
+          The Art of Watchmaking
+        </h2>
+
+        <p class="text-gray-400 leading-8 mt-7">
+          Beneath the elegant exterior of a mechanical watch lies a miniature
+          world of gears, springs and wheels. Each component works together
+          with remarkable precision.
+        </p>
+
+        <div class="mt-10 space-y-7">
+
+          <div class="flex gap-5">
+            <span class="text-[#D6B56D] text-2xl serif">01</span>
+            <div>
+              <h3 class="serif text-xl">Movement</h3>
+              <p class="text-gray-500 text-sm mt-2 leading-6">
+                The movement is the heart of a watch, powering the hands and
+                complications.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex gap-5">
+            <span class="text-[#D6B56D] text-2xl serif">02</span>
+            <div>
+              <h3 class="serif text-xl">Dial</h3>
+              <p class="text-gray-500 text-sm mt-2 leading-6">
+                The dial provides the visual identity of the watch and displays
+                the essential time information.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex gap-5">
+            <span class="text-[#D6B56D] text-2xl serif">03</span>
+            <div>
+              <h3 class="serif text-xl">Case</h3>
+              <p class="text-gray-500 text-sm mt-2 leading-6">
+                The case protects the movement while giving the watch its
+                distinctive shape and character.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex gap-5">
+            <span class="text-[#D6B56D] text-2xl serif">04</span>
+            <div>
+              <h3 class="serif text-xl">Finishing</h3>
+              <p class="text-gray-500 text-sm mt-2 leading-6">
+                Polishing, brushing and engraving create the refined details
+                that distinguish exceptional watchmaking.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Styles -->
+  <section id="styles" class="py-24 bg-[#F2EDE3] text-[#171513]">
+    <div class="max-w-7xl mx-auto px-6">
+
+      <div class="text-center mb-14">
+        <p class="text-[#9A7431] uppercase tracking-[0.3em] text-sm">Find Your Style</p>
+        <h2 class="serif text-5xl mt-3">A Watch For Every Character</h2>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+        <div class="relative h-96 overflow-hidden rounded-2xl group">
+          <img src="https://images.unsplash.com/photo-1526045431048-f857369baa09?auto=format&fit=crop&w=700&q=85"
+            class="w-full h-full object-cover group-hover:scale-110 transition duration-700"
+            alt="Dress watch">
+          <div class="absolute inset-0 bg-black/45 flex items-end p-7">
+            <div>
+              <h3 class="serif text-3xl text-white">Dress</h3>
+              <p class="text-gray-200 text-sm mt-2">Elegant and refined</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="relative h-96 overflow-hidden rounded-2xl group">
+          <img src="https://images.unsplash.com/photo-1548171915-e79a380a2a4b?auto=format&fit=crop&w=700&q=85"
+            class="w-full h-full object-cover group-hover:scale-110 transition duration-700"
+            alt="Sport watch">
+          <div class="absolute inset-0 bg-black/45 flex items-end p-7">
+            <div>
+              <h3 class="serif text-3xl text-white">Sport</h3>
+              <p class="text-gray-200 text-sm mt-2">Bold and adventurous</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="relative h-96 overflow-hidden rounded-2xl group">
+          <img src="https://images.unsplash.com/photo-1619946794135-5bc917a27793?auto=format&fit=crop&w=700&q=85"
+            class="w-full h-full object-cover group-hover:scale-110 transition duration-700"
+            alt="Vintage watch">
+          <div class="absolute inset-0 bg-black/45 flex items-end p-7">
+            <div>
+              <h3 class="serif text-3xl text-white">Vintage</h3>
+              <p class="text-gray-200 text-sm mt-2">Stories from another era</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="relative h-96 overflow-hidden rounded-2xl group">
+          <img src="https://images.unsplash.com/photo-1604242692760-2f7b0c26856b?auto=format&fit=crop&w=700&q=85"
+            class="w-full h-full object-cover group-hover:scale-110 transition duration-700"
+            alt="Minimalist watch">
+          <div class="absolute inset-0 bg-black/45 flex items-end p-7">
+            <div>
+              <h3 class="serif text-3xl text-white">Minimal</h3>
+              <p class="text-gray-200 text-sm mt-2">Simple by design</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Movements -->
+  <section class="py-24 bg-[#0E0E10]">
+    <div class="max-w-6xl mx-auto px-6">
+
+      <div class="text-center">
+        <p class="text-[#D6B56D] uppercase tracking-[0.3em] text-sm">The Mechanics</p>
+        <h2 class="serif text-5xl mt-3">Three Ways To Measure Time</h2>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6 mt-14">
+
+        <div class="p-9 bg-[#171719] rounded-2xl border border-white/5">
+          <div class="text-[#D6B56D] text-4xl serif">01</div>
+          <h3 class="serif text-2xl mt-6">Mechanical</h3>
+          <p class="text-gray-500 mt-4 text-sm leading-7">
+            Powered by a mainspring and a complex system of gears, a mechanical
+            watch represents traditional watchmaking at its most intricate.
+          </p>
+        </div>
+
+        <div class="p-9 bg-[#171719] rounded-2xl border border-white/5">
+          <div class="text-[#D6B56D] text-4xl serif">02</div>
+          <h3 class="serif text-2xl mt-6">Automatic</h3>
+          <p class="text-gray-500 mt-4 text-sm leading-7">
+            An automatic movement winds itself using the natural movement of
+            the wearer's wrist.
+          </p>
+        </div>
+
+        <div class="p-9 bg-[#171719] rounded-2xl border border-white/5">
+          <div class="text-[#D6B56D] text-4xl serif">03</div>
+          <h3 class="serif text-2xl mt-6">Quartz</h3>
+          <p class="text-gray-500 mt-4 text-sm leading-7">
+            Quartz movements use an electronic oscillator regulated by a
+            quartz crystal to provide highly accurate timekeeping.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- History -->
+  <section id="history" class="py-24 bg-[#151214]">
+    <div class="max-w-5xl mx-auto px-6">
+
+      <div class="text-center mb-16">
+        <p class="text-[#D6B56D] uppercase tracking-[0.3em] text-sm">A Brief History</p>
+        <h2 class="serif text-5xl mt-3">The Evolution of Time</h2>
+      </div>
+
+      <div class="space-y-12">
+
+        <div class="grid md:grid-cols-[150px_1fr] gap-8 border-b border-white/10 pb-10">
+          <p class="serif text-3xl text-[#D6B56D]">1500s</p>
+          <div>
+            <h3 class="serif text-2xl">The Birth of Portable Time</h3>
+            <p class="text-gray-500 mt-3 leading-7">
+              Early portable clocks allowed people to carry timekeeping devices
+              with them, laying the foundation for the development of watches.
+            </p>
+          </div>
+        </div>
+
+        <div class="grid md:grid-cols-[150px_1fr] gap-8 border-b border-white/10 pb-10">
+          <p class="serif text-3xl text-[#D6B56D]">1800s</p>
+          <div>
+            <h3 class="serif text-2xl">Watches Become Personal</h3>
+            <p class="text-gray-500 mt-3 leading-7">
+              Watchmaking developed rapidly, and portable timepieces became
+              increasingly associated with elegance, craftsmanship and status.
+            </p>
+          </div>
+        </div>
+
+        <div class="grid md:grid-cols-[150px_1fr] gap-8 border-b border-white/10 pb-10">
+          <p class="serif text-3xl text-[#D6B56D]">1900s</p>
+          <div>
+            <h3 class="serif text-2xl">The Wristwatch Era</h3>
+            <p class="text-gray-500 mt-3 leading-7">
+              Wristwatches became increasingly popular and evolved into
+              specialized designs for aviation, diving, sport and everyday wear.
+            </p>
+          </div>
+        </div>
+
+        <div class="grid md:grid-cols-[150px_1fr] gap-8">
+          <p class="serif text-3xl text-[#D6B56D]">Today</p>
+          <div>
+            <h3 class="serif text-2xl">Tradition Meets Technology</h3>
+            <p class="text-gray-500 mt-3 leading-7">
+              Modern watchmaking combines centuries-old craftsmanship with
+              advanced materials, precision engineering and contemporary design.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Quote -->
+  <section class="py-28 bg-[#D6B56D] text-[#111]">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <div class="text-6xl serif">“</div>
+      <p class="serif text-4xl md:text-5xl leading-tight">
+        A great watch does not simply tell time.
+        It tells a story.
+      </p>
+      <p class="mt-7 uppercase tracking-[0.25em] text-sm">
+        The Philosophy of Chronos
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-[#080809] py-14">
+    <div class="max-w-7xl mx-auto px-6">
+
+      <div class="grid md:grid-cols-3 gap-10 border-b border-white/10 pb-10">
+
+        <div>
+          <h2 class="serif text-3xl text-[#D6B56D]">CHRONOS</h2>
+          <p class="text-gray-500 text-sm leading-7 mt-4 max-w-sm">
+            An exploration of watches, watchmaking, design and the fascinating
+            history behind the world's most enduring timepieces.
+          </p>
+        </div>
+
+        <div>
+          <h3 class="text-sm uppercase tracking-widest text-gray-300">Explore</h3>
+          <div class="mt-4 space-y-3 text-gray-500 text-sm">
+            <p>Collections</p>
+            <p>Watch Styles</p>
+            <p>Watchmaking</p>
+            <p>History</p>
+          </div>
+        </div>
+
+        <div>
+          <h3 class="text-sm uppercase tracking-widest text-gray-300">Discover Time</h3>
+          <p class="text-gray-500 text-sm leading-7 mt-4">
+            Precision. Heritage. Design. Craftsmanship.
+            Four elements that make a timepiece timeless.
+          </p>
+        </div>
+
+      </div>
+
+      <div class="flex flex-col md:flex-row justify-between gap-4 pt-7 text-gray-600 text-xs">
+        <p>© 2026 Chronos. All rights reserved.</p>
+        <p>Designed with HTML & Tailwind CSS</p>
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+</html>
